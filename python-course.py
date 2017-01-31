@@ -23,7 +23,7 @@ print ("\n")
 
 def add_num(num, num2):
     a = num + num2          #Use of operator
-    print ('Your whole number and decimal number added together is equal to: {}').format(a)  
+    print ('Your whole number and decimal number added together is equal to: {}').format(a)
 
 def sub_num(num, num2):
     a = num - num2          #Use of operator
@@ -71,7 +71,5 @@ science = ('Tesla', 'Einstein', 'Feynman', 'Newton')   #Use of a tuple
 def extra(): #Iterate through a tuple  #define function that calls a string variable
     for person in science: #Use of a for loop
         print ('{} was an exemplary human being.').format(person) #Print out tuple
-        
+
 extra() #call function
-
-
